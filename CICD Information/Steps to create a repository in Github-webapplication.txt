@@ -1,0 +1,8 @@
+1: Get in github
+2: Click on create a repository--give a name-description-public and give readme pages
+3: Add another file-index.html: type in <h>Hellow World! </h>
+3: Go to setting --github pages and give the source--get the url for the webapplication to be published
+4: Next give the theme
+5:Delete the index file
+6: Refresh the same URL to view the webapplication Page
+7 : Webapplication page successfully created

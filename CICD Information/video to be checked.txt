@@ -1,0 +1,5 @@
+Create Jenkins Declarative Pipeline | Create Jenkins CI CD Pipeline | Declarative pipeline tutorial
+Nexus ubuntu
+Jenkins-EC2----completed
+Tomcat-EC2
+SonarQube-EC2

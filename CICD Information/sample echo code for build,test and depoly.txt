@@ -1,0 +1,34 @@
+https://github.com/Mukesh-50/mavenjenkins.git
+
+
+pipeline
+{
+    agent any
+
+    stages
+    {
+        stage (Build)
+     {
+           steps
+                   {
+                        echo 'Build App'
+                     }
+}
+
+stage ('Test')
+         {
+              steps
+                      {
+                    echo 'Test App'
+                        }
+}
+
+stage ('Deploy')
+{
+              step
+                  {
+                    echo 'Deply App'
+                       }
+}
+} 
+}

@@ -1,0 +1,33 @@
+1) Get into the console, launch a EC2 instance, linux, t2 micro, use the default while creating instance, give a tag called Jenkins, in the security group allow, TCP rule 8080 and ssh 22 and launch a instance with a key pair
+
+2) Try taking a ssh to the instance(use putty gen to convert to ppk file)
+
+3)follow the steps below to get jenkins installed:(Get it from page pkg.jenkins.io/redhat-stable/
+ --->sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+
+---> sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+-----> yum install epel-release( do amazon-linux-extras install eprl if asked for
+
+---->amazon-linux-extras
+
+--> amazon-linux-extras install java-openjdk11---- install the java 11 versio
+
+--->yum install jenkins
+
+--->service jenkins status(check if thejenkins is running, if disabled, then)
+
+---> service jenkins start
+
+---> chkconfig jenkins on(to boot up)
+
+now open the jenkins in gui:
+
+take the public ip of the instance ex: http://3.95.245.254:8080/
+
+unlock the password from the location provided.. from the ec2 instance :cat /var/lib/jenkins/secrets/initialAdminPassword
+bccb3809eb004fa19ee508a124622d1d
+
+
+
+provide the password to get started

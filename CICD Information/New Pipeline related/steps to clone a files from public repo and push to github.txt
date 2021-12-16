@@ -1,0 +1,7 @@
+1) Open gitbash in the local system
+2) cd desktop---change to desktop
+3) Enter git clone urlof the repository
+ex: git clone https://github.com/ravdy/hello-world.git
+4) ls to verify the files that have copied
+5) verify in the local desktop
+
